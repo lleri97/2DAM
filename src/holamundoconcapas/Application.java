@@ -8,7 +8,6 @@ package holamundoconcapas;
 import HolaMuncoConCapas.controller.Controller;
 import holamundoconcapas.model.ModelFactory;
 import holamundoconcapas.view.viewFactory;
-import javax.swing.text.ViewFactory;
 
 /**
  *

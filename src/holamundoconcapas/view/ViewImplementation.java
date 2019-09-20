@@ -11,6 +11,7 @@ package holamundoconcapas.view;
  */
 public class ViewImplementation implements View {
     
+    @Override
     public void showGreeting(String greeting) {
         System.out.println(greeting);
 }

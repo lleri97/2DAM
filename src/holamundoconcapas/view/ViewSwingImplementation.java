@@ -5,18 +5,23 @@
  */
 package holamundoconcapas.view;
 
+
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Yeray
  */
-public class viewFactory {
+public class ViewSwingImplementation implements View {
 
     /**
      *
-     * @return
+     * @param greeting
      */
-    public JavaFxViewImplementation getView(){
-        
-        return new JavaFxViewImplementation();
-    }
+    @Override
+   public void showGreeting(String greeting){
+       JOptionPane.showMessageDialog(null, greeting);
+   }
+   
+    
 }

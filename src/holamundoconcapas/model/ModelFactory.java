@@ -10,8 +10,8 @@ package holamundoconcapas.model;
  * @author Yeray
  */
 public class ModelFactory {
-    public ModelImplementation getModel(){
+    public ModelFileImplementation getModel(){
        
-        return new ModelImplementation();
+        return new ModelFileImplementation();
     }
 }
