@@ -57,7 +57,10 @@ public class JavaFxViewImplementation extends javafx.application.Application imp
         this.greeting=getParameters().getRaw().get(0);
     }
 
-    
+    public void setGreeting(String greeting){
+        
+        this.greeting=greeting;
+    }
    
     
 }

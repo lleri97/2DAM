@@ -32,7 +32,7 @@ public class Ventana_chachiController{
    
     @FXML
     public void buttonAction(ActionEvent event){
-       Platform.exit();
+        texto.setText(greeting+greeting);
     }
 
     /**
