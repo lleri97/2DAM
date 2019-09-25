@@ -17,6 +17,7 @@ import org.testfx.framework.junit.ApplicationTest;
 /**
  *
  * @author Yeray
+ * Cargamos el metodo start de JavaFX y le pasamos el saludo 
  */
 public class Ventana_chachiControllerIT extends ApplicationTest {
 

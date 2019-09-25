@@ -14,6 +14,7 @@ import javafx.stage.Stage;
 /**
  *
  * @author Yeray
+ * In this class we run the method start to create the JavaFX view
  */
 public class JavaFxViewImplementation extends javafx.application.Application implements View{
 

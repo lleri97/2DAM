@@ -8,6 +8,7 @@ package holamundoconcapas.model;
 /**
  *
  * @author Yeray
+ * We implement the model woth swing 
  */
 public class ModelSwingImplementation extends javax.swing.JFrame {
 

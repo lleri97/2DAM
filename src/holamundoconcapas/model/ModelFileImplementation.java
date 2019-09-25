@@ -10,6 +10,7 @@ import java.util.ResourceBundle;
 /**
  *
  * @author Yeray
+ * At this class we get the greeting from a resource
  */
 public class ModelFileImplementation implements Model {
    

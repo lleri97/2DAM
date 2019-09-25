@@ -11,6 +11,7 @@ import javax.swing.JOptionPane;
 /**
  *
  * @author Yeray
+ * At this class we create a window with JOptionPane to show the greeting
  */
 public class ViewSwingImplementation implements View {
 

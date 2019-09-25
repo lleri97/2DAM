@@ -8,6 +8,7 @@ package holamundoconcapas.view;
 /**
  *
  * @author Yeray
+ * 
  */
 public interface View {
     public void showGreeting(String greeting);

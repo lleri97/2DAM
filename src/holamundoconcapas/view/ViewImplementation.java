@@ -8,6 +8,7 @@ package holamundoconcapas.view;
 /**
  *
  * @author Yeray
+ * We show the greeting that we recived
  */
 public class ViewImplementation implements View {
     

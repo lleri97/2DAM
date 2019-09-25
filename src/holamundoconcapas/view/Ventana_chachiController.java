@@ -19,6 +19,8 @@ import javafx.stage.WindowEvent;
 /**
  *
  * @author Yeray
+ * In this class we prepare all the actions 
+ * 
  */
 public class Ventana_chachiController{
  

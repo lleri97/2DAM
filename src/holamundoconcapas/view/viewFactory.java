@@ -8,6 +8,7 @@ package holamundoconcapas.view;
 /**
  *
  * @author Yeray
+ * Returns an imlementation of JavaFX
  */
 public class viewFactory {
 

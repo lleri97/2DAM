@@ -10,7 +10,7 @@ import holamundoconcapas.view.View;
 import java.util.logging.Logger;
 
 /**
- *Esta clase junta la vista con el modelo 
+ *This class joins the view with the model
  * 
  * @author Yeray
  * @param vista el objeto vista

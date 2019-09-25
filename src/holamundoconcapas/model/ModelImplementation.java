@@ -8,6 +8,7 @@ package holamundoconcapas.model;
 /**
  *
  * @author Yeray
+ * We implement the model and return a greeting
  */
 public class ModelImplementation implements Model {
     
