@@ -12,8 +12,11 @@ import holamundoconcapas.view.viewFactory;
 /**
  *
  * @author Yeray
+ * 
+ * El metodo main para lanzar la aplicacion 
  */
 public class Application {
+    
 public static void main(String[] args){
     ModelFactory modelFactoria = new ModelFactory();
     viewFactory viewFactoria =new viewFactory();

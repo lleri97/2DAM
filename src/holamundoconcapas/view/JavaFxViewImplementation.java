@@ -5,6 +5,7 @@
  */
 package holamundoconcapas.view;
 
+import com.sun.media.jfxmedia.logging.Logger;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -16,6 +17,8 @@ import javafx.stage.Stage;
  */
 public class JavaFxViewImplementation extends javafx.application.Application implements View{
 
+   private static final java.util.logging.Logger LOGGER=java.util.logging.Logger.getLogger("holamundoconcapas.view.JavaFxViewImplementation");
+    
  private String greeting;
 
     
@@ -30,8 +33,10 @@ public class JavaFxViewImplementation extends javafx.application.Application imp
     
     @Override
     public void start(Stage stage) throws Exception {
+      
         try{
             
+            LOGGER.info("Starting JavaFX");
             
             FXMLLoader loader = new FXMLLoader(
              getClass().getResource("Ventana_chachi.fxml"));
@@ -44,9 +49,10 @@ public class JavaFxViewImplementation extends javafx.application.Application imp
             viewController.setStage(stage);
             viewController.initStage(root);
            
-            
+            LOGGER.info("Finished JavaFX");
      
         }catch(Exception e){
+            LOGGER.severe("Error en el metodo start");
             e.printStackTrace();
         }
              
